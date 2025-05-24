@@ -8,6 +8,8 @@ This is a **Quiz Application** designed using a **microservices architecture** f
 
 - **Quiz Service** – Responsible for quiz creation and score calculation.
 - **Question Service** – Manages questions and provides them to the Quiz Service.
+- **Eureka Server (Service Registry)** – Manages service discovery for all microservices.
+- **API Gateway** – Central entry point for routing requests to respective microservices.
 
 ---
 
